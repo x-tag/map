@@ -1,17 +1,13 @@
-# About
+## About
 
-This repo is an X-Tag custom web-component stub that can be used as a starting point when building new elements.  It provides that basic tools and grunt tasks to get started.
+The map element allows you to drop in one tag with your Cloudmade api key and have a working map.
 
-# Dev Setup
-
-```
-Fork this repo, rename it, then clone it.
-
-$ npm install	// install bower tasks
-$ bower install	// install components
-$ grunt build   // build the dependencies
+## Syntax
 
 ```
+	<x-map id="map_2" key="39d2b66f0d5d49dbb52a5b7ad87aea9b" location="auto"></x-map>
+```
+
 
 # Create X-Tag Components
 
@@ -20,5 +16,8 @@ $ grunt build   // build the dependencies
 # Use X-Tag Components
 
 [Using X-Tag components in your applications](https://github.com/x-tag/core/wiki/Using-X-Tag-Components-in-your-application)
+
+
+
 
 

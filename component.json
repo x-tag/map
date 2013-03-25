@@ -1,14 +1,15 @@
 {
-  "name": "stub",
+  "name": "Leaflet Maps",
   "description": "",
   "version": "0.1.0",
   "keywords": [
+    "map",
     "web-components",    
     "x-tag"
   ],
   "main": [
-    "src/main.js",
-    "src/main.css"
+    "src/map.js",
+    "src/map.css"
   ],
   "dependencies": {
     "x-tag-core": "*"

@@ -1,25 +1,36 @@
-{
-	"name": "stub",
-	"tagName": "x-stub",
-	"version": "0.1.0",
-	"author": "you",
-	"description": "",
-	"demo": "demo/index.html",
-	"categories": [],
-	"compatibility": {
+{	
+	"name": "Leaflet Map",
+	"tagName": "x-map",
+	"version": "0.0.3",	
+	"author": "Daniel Buchner",
+	"description": "The map tag provides an simple declaritive way to include an interactive map element in your pages, all you need is a CloudMade API key!",
+	"images": ["http://leaflet.cloudmade.com/docs/images/logo.png"],	
+	"categories": ["media"],
+	"demo": "demo/demo.html",
+	"compatibility": {	
 		"firefox": 5,
 		"chrome": 4,
-		"ie": 9,
-		"opera": 12,
+		"opera": 11,
 		"android": 2.1,
 		"ios": 4
-	},
-	"documentation": {
-		"description": "",
-		"attributes": {},
-		"events": {},
-		"methods": {},
-		"getters": {},
-		"setters": {}
+	}, 
+	"documentation":{
+		"getters":{
+			"tileSet": "Current cloudmade.com tileSet Id.", 
+			"zoom": "Gets map zoom level", 
+			"location": "Gets the maps center gps coordinates"
+		},
+		"setters":{
+			"tileSet": "Cloudmade.com titleSet Id to use.", 
+			"zoom": "Sets map zoom level", 
+			"location": "Sets the center of the map. 'LAT, LONG'"
+		},
+		"attributes":{
+			"location": "Sets the center of the map. 'LAT, LONG'",
+			"key": "Your cloudmade api key.",
+			"zoom": "Sets map zoom level.",
+			"tile-set": "Cloudmade.com titleSet Id to use.",
+			"tile-options": "Other Cloudmade options."
+		}
 	}
 }
