@@ -23,13 +23,13 @@
 	
 <body>
 	<h3>Geo-Location Map</h3>
-	<x-map id="map_2" key="39d2b66f0d5d49dbb52a5b7ad87aea9b" location="auto"></x-map>
+	<x-map id="map2" key="39d2b66f0d5d49dbb52a5b7ad87aea9b" location="auto"></x-map>
 </body>
 
 <script type="text/javascript">
 
 xtag.addEvent(document, 'DOMComponentsLoaded', function(){
-	var map = document.getElementById('map_2');
+	var map = document.getElementById('map2');
 	xtag.addEvent(map, 'move', function(e){
 		console.log("move", e);
 	});
