@@ -1,40 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8" />
-		
-		<title>Map Demo - X-Tag</title>
-		
-		<link rel="stylesheet" type="text/css" href="../src/map.css" />
-		<link rel="stylesheet" type="text/css" href="x-tag-components.css" />
+  <head>
+    <meta charset="utf-8" />
 
-		<script type="text/javascript" src="x-tag-components.js"></script>		
-		<script type="text/javascript" src="../src/map.js"></script>
-		
-		<style>
-			#map_1, #map_2 {
-				height: 300px;
-				width: 300px;
-				margin: 50px;
-			}
-		</style>
-	</head>
-	
+    <title>Map Demo - X-Tag</title>
+
+    <link rel="stylesheet" type="text/css" href="../src/map.css" />
+    <link rel="stylesheet" type="text/css" href="x-tag-components.css" />
+
+    <script type="text/javascript" src="x-tag-components.js"></script>
+    <script type="text/javascript" src="../src/map.js"></script>
+
+    <style>
+      #map {
+        height: 300px;
+        width: 300px;
+        margin: 50px;
+      }
+    </style>
+  </head>
+
 <body>
-	<h3>Geo-Location Map</h3>
-	<x-map id="map2" key="39d2b66f0d5d49dbb52a5b7ad87aea9b" location="auto"></x-map>
+  <h3>Geo-Location Map</h3>
+  <x-map id="map" key="39d2b66f0d5d49dbb52a5b7ad87aea9b" location="auto"></x-map>
 </body>
 
 <script type="text/javascript">
 
-xtag.addEvent(document, 'DOMComponentsLoaded', function(){
-	var map = document.getElementById('map2');
-	xtag.addEvent(map, 'move', function(e){
-		console.log("move", e);
-	});
+xtag.addEvent(document, 'DOMComponentsLoaded', function() {
+  var map = document.getElementById('map');
+  xtag.addEvent(map, 'move', function(e) {
+    console.log('move', e);
+  });
 });
 
 </script>
-
 </html>
