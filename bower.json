@@ -7,11 +7,12 @@
     "web-components",
     "x-tag"
   ],
-  "main": [
+  "main": [  	
     "src/map.js",
     "src/map.css"
   ],
   "dependencies": {
-    "x-tag-core": "0.8.3"
+    "x-tag-core": "0.8.3",
+    "leaflet-bower": "0.6.4-bower"
   }
 }
