@@ -40,4 +40,4 @@ module.exports = function(grunt) {
   grunt.registerTask('build', ['jshint','smush-components']);
   grunt.registerTask('bump:patch', ['bumpup:patch', 'tagrelease']);
 
-};
+}

@@ -1,13 +1,13 @@
 {
   "name": "LeafletMaps",
   "description": "",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "keywords": [
     "map",
     "web-components",
     "x-tag"
   ],
-  "main": [  	
+  "main": [
     "src/map.js",
     "src/map.css"
   ],
