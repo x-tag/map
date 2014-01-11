@@ -12,7 +12,7 @@
     "src/map.css"
   ],
   "dependencies": {
-    "x-tag-core": "0.8.3",
+    "x-tag-core": "*",
     "leaflet-bower": "0.6.4-bower"
   }
 }
