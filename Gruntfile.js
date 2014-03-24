@@ -12,7 +12,7 @@ module.exports = function(grunt) {
       }
     },
     jshint:{
-      all: ['Gruntfile.js', 'src/**/*.js', 'test/**/*.js']
+      all: ['Gruntfile.js', 'src/map.js', 'test/**/*.js']
     },
     'smush-components': {
       options: {
@@ -40,4 +40,4 @@ module.exports = function(grunt) {
   grunt.registerTask('build', ['jshint','smush-components']);
   grunt.registerTask('bump:patch', ['bumpup:patch', 'tagrelease']);
 
-};
+}
