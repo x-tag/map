@@ -1,8 +1,9 @@
 {
-  "name": "LeafletMaps",
-  "description": "",
+  "name": "Leaflet-Maps",
+  "description": "The map tag provides an simple declaritive way to include an interactive map element in your pages, all you need is a CloudMade API key!",
   "version": "0.2.0",
   "keywords": [
+    "element",
     "map",
     "web-components",
     "x-tag"
