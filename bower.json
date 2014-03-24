@@ -14,6 +14,6 @@
   ],
   "dependencies": {
     "x-tag-core": "*",
-    "leaflet-bower": "0.6.4-bower"
+    "leaflet-bower": "0.6.3-bower"
   }
 }
